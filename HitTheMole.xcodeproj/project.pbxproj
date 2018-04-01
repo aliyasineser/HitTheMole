@@ -12,6 +12,10 @@
 		DDDDD78C207180E500AB834C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDD78A207180E500AB834C /* Main.storyboard */; };
 		DDDDD78E207180E500AB834C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDDDD78D207180E500AB834C /* Assets.xcassets */; };
 		DDDDD791207180E500AB834C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDDDD78F207180E500AB834C /* LaunchScreen.storyboard */; };
+		DDDDD79920718DD500AB834C /* mole.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDDD79820718DD500AB834C /* mole.png */; };
+		DDDDD79B2071941E00AB834C /* moleInGame.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDDD79A2071941E00AB834C /* moleInGame.png */; };
+		DDDDD79D20719F5300AB834C /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDDD79C20719F5300AB834C /* menu.png */; };
+		DDDDD79F20719FCB00AB834C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDDDD79E20719FCB00AB834C /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		DDDDD78D207180E500AB834C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDDDD790207180E500AB834C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDDDD792207180E500AB834C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDDDD79820718DD500AB834C /* mole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mole.png; sourceTree = "<group>"; };
+		DDDDD79A2071941E00AB834C /* moleInGame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moleInGame.png; sourceTree = "<group>"; };
+		DDDDD79C20719F5300AB834C /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		DDDDD79E20719FCB00AB834C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +62,16 @@
 		DDDDD785207180E500AB834C /* HitTheMole */ = {
 			isa = PBXGroup;
 			children = (
+				DDDDD79820718DD500AB834C /* mole.png */,
+				DDDDD79C20719F5300AB834C /* menu.png */,
+				DDDDD79A2071941E00AB834C /* moleInGame.png */,
 				DDDDD786207180E500AB834C /* AppDelegate.swift */,
 				DDDDD788207180E500AB834C /* ViewController.swift */,
 				DDDDD78A207180E500AB834C /* Main.storyboard */,
 				DDDDD78D207180E500AB834C /* Assets.xcassets */,
 				DDDDD78F207180E500AB834C /* LaunchScreen.storyboard */,
 				DDDDD792207180E500AB834C /* Info.plist */,
+				DDDDD79E20719FCB00AB834C /* GameViewController.swift */,
 			);
 			path = HitTheMole;
 			sourceTree = "<group>";
@@ -123,6 +135,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDDDD79920718DD500AB834C /* mole.png in Resources */,
+				DDDDD79B2071941E00AB834C /* moleInGame.png in Resources */,
+				DDDDD79D20719F5300AB834C /* menu.png in Resources */,
 				DDDDD791207180E500AB834C /* LaunchScreen.storyboard in Resources */,
 				DDDDD78E207180E500AB834C /* Assets.xcassets in Resources */,
 				DDDDD78C207180E500AB834C /* Main.storyboard in Resources */,
@@ -137,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDDDD789207180E500AB834C /* ViewController.swift in Sources */,
+				DDDDD79F20719FCB00AB834C /* GameViewController.swift in Sources */,
 				DDDDD787207180E500AB834C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
